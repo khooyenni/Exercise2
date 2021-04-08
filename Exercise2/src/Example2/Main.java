@@ -4,24 +4,23 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		BreakfastMaker a = new BreakfastMaker();
-		System.out.println("Brand: " + a.brand);
-		System.out.println("Voltage: " + a.voltage);
-		System.out.println("Oven Capacity: " + a.ovenCapacity);
-		a.bake();
-		a.toast();
-		a.fry();
+		BreakfastMaker Sunpentown = new BreakfastMaker();
+		System.out.println("Brand: " + Sunpentown.brand);
+		System.out.println("Voltage: " + Sunpentown.voltage);
+		System.out.println("Oven Capacity: " + Sunpentown.ovenCapacity);
+		Sunpentown.bake();
+		Sunpentown.toast();
+		Sunpentown.fry();
 		
 		System.out.println();
 		
-		MicrowaveOven b = new MicrowaveOven();
-		System.out.println("Brand: " +b.brand);
-		System.out.println("Model: " + b.model);
-		System.out.println("Oven Capacity: " + b.ovenCapacity);
-		b.bake();
-		b.grill();
-		b.defrost();
-		
+		Tablet Huawei = new Tablet();
+		System.out.println("Brand: " + Huawei.brand);
+		System.out.println("Model: " + Huawei.model);
+		System.out.println("Oven Capacity: " + Huawei.colour);
+		Huawei.call();
+		Huawei.youtube();
+		Huawei.notification();
 
 	}
 
